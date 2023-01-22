@@ -29,6 +29,27 @@ a {
   }
 }
 
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+  // width: 0;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container{
+  max-width: 500px;
+  width: 100%;
+  margin-left: auto;
+  padding-right: auto;
+}
+
+input{
+  @apply outline-none border-none ring-0 focus:outline-none focus:border-none focus:ring-0;
+}
+
+
+.xi3auck {
+  -webkit-filter: var(--filter-accent);
+}
