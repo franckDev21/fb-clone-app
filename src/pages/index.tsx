@@ -16,7 +16,7 @@ export default function Home() {
 
       <main className="h-screen pt-4 flex justify-between items-start">
         <SidebarLeft />
-        <Content />
+        <Content /> 
         <SideBarRight />
       </main>
     </MainLayout>
